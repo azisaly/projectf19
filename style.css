@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAV */
+nav a{
+  text-decoration: none;
+}
+
+.menu-list {
+  background-color: rgb(92, 136, 177);
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.menu-list li {
+  float: left;
+  font-size: 20px;
+  text-transform: uppercase;
+  list-style: none;
+  line-height: 50px;
+  padding-left: 25px;
+  color: cornsilk;
+}
+
+footer{
+  background-color: #ceccf3;
+  height: 120px;
+  padding: 40px;
+
+
+}
+
+.footer-logo{
+  font-family: 'Dancing Script', cursive;
+  float: left;
+  font-size: 32px;
+  text-shadow: 3px 3px 5px #D4ADA5 ;
+}
+
+.footer-list{
+  float: right;
+}
+
+.footer-list li{
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+
+/* NAV */
+
+main {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: cornsilk;
+}
+
+@media (max-width: 1000px) {
+
+#content_column {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+article {
+    flex: auto;
+    flex-basis: 30%;
+}
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(92, 136, 177);
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.footer-logo{
+  padding-bottom: 20px;
+}
+
+}
